@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="qSYsyLIdfFd_7wkHpoKjNrgQgPjgwnvWIxx5oeThDIw" />
+<meta name="msvalidate.01" content="EF0D113A83DA6960716D3F3EB33D127B" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="noindex, nofollow">
+  <title>Get Chat Support - (Live Chat)</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .left-panel, .right-panel {
+      width: 50%;
+      padding: 40px;
+    }
+
+    .left-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #fff;
+    }
+
+    .left-panel h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .left-panel p {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .right-panel {
+      background: linear-gradient(135deg, #a2d4f7, #c6d8ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .mobile-call {
+      display: none;
+      margin-top: 25px;
+    }
+
+    .mobile-call a {
+      display: inline-block;
+      background-color: #007aff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .mobile-call a:hover {
+      background-color: #005bb5;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 991px) {
+      body {
+        flex-direction: column;
+        height: auto;
+      }
+      .left-panel, .right-panel {
+        width: 100%;
+        padding: 30px;
+      }
+      .left-panel {
+        text-align: center;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .mobile-call {
+        display: block;
+        text-align: center;
+      }
+      .left-panel h1 {
+        font-size: 32px;
+      }
+      .left-panel p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="left-panel">
+    <h1>Hello!</h1>
+    <p>Welcome to our chat page.</p>
+    <p>Need help? Contact us here for instant support.</p>
+    <p>Our team is ready to assist you online.</p>
+
+    <!-- Toll-Free Number - Mobile Only -->
+    <div class="mobile-call">
+      <a href="tel:+17012899588">📞 +1 701-289-9588</a>
+    </div>
+  </div>
+
+  <div class="right-panel">
+    <!-- LiveChat widget will auto-load here -->
+  </div>
+
+  <!-- Start of LiveChat (www.livechat.com) code -->
+  <script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 18911205;
+    window.__lc.integration_name = "manual_channels";
+    window.__lc.product_name = "livechat";
+    (function(n, t, c) {
+      function i(n) {
+        return e._h ? e._h.apply(null, n) : e._q.push(n);
+      }
+      var e = {
+        _q: [],
+        _h: null,
+        _v: "2.0",
+        on: function () { i(["on", c.call(arguments)]) },
+        once: function () { i(["once", c.call(arguments)]) },
+        off: function () { i(["off", c.call(arguments)]) },
+        get: function () {
+          if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load.");
+          return i(["get", c.call(arguments)]);
+        },
+        call: function () { i(["call", c.call(arguments)]) },
+        init: function () {
+          var n = t.createElement("script");
+          n.async = !0;
+          n.type = "text/javascript";
+          n.src = "https://cdn.livechatinc.com/tracking.js";
+          t.head.appendChild(n);
+        }
+      };
+      !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e;
+    })(window, document, [].slice);
+  </script>
+  <noscript>
+    <a href="https://www.livechat.com/chat-with/18911205/" rel="nofollow">Chat with us</a>,
+    powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+  </noscript>
+  <!-- End of LiveChat code -->
+
+</body>
+</html>
